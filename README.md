@@ -3,7 +3,7 @@
 > *Stave-built dunduns — the dual-headed cylindrical bass drums that anchor the West African djembe ensemble. Built at Morgan Drums (St. Paul, MN) and revisited as an ongoing engineering project.*
 
 ![Hero photo](images/00-hero-dundun.jpg)
-*(placeholder — drop in a finished-instrument photo or the trio of three sizes)*
+*Close-up of a finished stave-built dundun body: vertical wood staves, rope tuning, skin head, and hoop detail. The cylindrical geometry is simpler than a djembe, but the rope path, head seating, and shell stiffness still decide the final sound.*
 
 ## What this is
 
