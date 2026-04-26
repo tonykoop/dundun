@@ -40,6 +40,11 @@ This makes the dundun a cleaner *fabrication* problem and a more interesting *ac
 - **Fabrication is a stave count + diameter problem only.** Pick the number of staves `n`, pick the target inner diameter `D`, calculate stave width `w = π D / n` and bevel angle `θ = 180°/n`. Cut, glue, head, rope. Same compound angle on every stave from end to end.
 - **Acoustics is a tuning problem.** A dundun's pitch comes from the interaction of three things: the cylinder's natural air-column resonance (set by its length and diameter), the cowhide head's tensioned-membrane modes, and the dual-head coupling through the air enclosed in the cylinder. Tightening the rope changes the head tension, which changes the pitch — but only within the band the cylinder's geometry will support. Designing a kenkeni / sangban / doundounba *trio* that sits at a useful musical pitch ratio means picking cylinder dimensions that reinforce the desired tuning.
 
+### Dimensional reference — the three voices in numbers
+
+![Master dimensional reference page: standard size ranges per voice, plus chosen target dimensions with stave widths and bevel angles for both 18-stave and 24-stave variants](drawings/img20260426_00504715.png)
+*Master dimensional reference page from August 2021, planning a four-drum dundun build. **Top half** surveys the standard size range for each voice — dundunba 24–28" long × 16–20" dia, sangban 20–24" × 12–16", kenkeni 18–20" × 10–14" — with circumferences worked out so I could see immediately what stave width each diameter implies. **Bottom half** picks the target dimensions inside that range and runs the stave math both ways: the large dundunba at 17"×27.5" comes out to **2.219" wide staves at a 7.5° bevel** if cut as 24 staves, or **2.952" wide staves at a 10° bevel** if cut as 18. Same calculation for medium (14"×22.65") and small (11"×17.35"). The choice between 18- and 24-stave construction is a tradeoff between cylindrical-approximation quality (more staves = rounder) and per-stave material yield (fewer staves = wider stock = more usable lumber per board). Four more pages of related lumber-yield calculations and per-drum BOMs are in [`drawings/`](drawings/).*
+
 ## CAD and design work
 
 > *(Forthcoming.)*
@@ -103,6 +108,6 @@ dundun/
 | CAD — head + ring + rope path | not started |
 | CAD — jig design | not started |
 | Acoustic tuning analysis | not started |
-| Physical builds documented | searching personal archives |
+| Physical builds documented | searching personal archives — Aug 2021 build-planning notes scanned in to `drawings/` |
 
 A repository in motion, not a finished portfolio piece.
