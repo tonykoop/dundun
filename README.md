@@ -61,6 +61,9 @@ The dundun trio's pitch relationships in traditional Mande ensembles are not sta
 
 I built dunduns at Morgan Drums during my 2008+ tenure there. Hero photos and detail shots of those instruments are forthcoming as I locate them in personal archives.
 
+![Drumheading a dundun — body, cowhide, ring assemblies, and tensioning rope](images/20201120_093524.jpg)
+*Mid-build: a stave-built dundun body alongside the cowhide head, two woven hoop ring assemblies, and the bundle of black tensioning rope. The rope path connects the top and bottom rings so that tightening one head also tightens the other — the same dual-head coupling that gives the dundun its characteristic resonance.*
+
 ## What this work is for
 
 - **The simpler-geometry, harder-acoustics question** — the dundun is the inverse of the djembe. Easy to build, harder to *tune*. This repository is where that tuning problem gets formalized.
