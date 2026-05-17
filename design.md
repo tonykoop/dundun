@@ -1,6 +1,6 @@
 # Dundun Trio V5 Starter Design
 
-Current status: bare-bones readiness packet.
+Current status: L2 V5 build-packet candidate.
 
 Fabrication authority: not build-ready. The existing scanned planning pages
 and build photos are preserved as reference evidence. Future DXF, CAD, design
@@ -87,7 +87,8 @@ ensemble, hide, and playing style.
 
 ## Readiness Label
 
-This is a starter packet. It is suitable for planning, measurement capture, and
-future CAD/DXF drafting. It is not suitable for cutting staves, ordering all
-materials, or releasing a shop packet without the validation gates in
-`validation-loop.csv`.
+This is an L2 V5 build-packet candidate. It is suitable for planning,
+measurement capture, and future CAD/DXF drafting. It is not suitable for
+cutting staves, ordering all materials, or releasing a shop packet without the
+validation gates in `validation.csv`, `validation-loop.csv`, and
+`v5-material-measurement-gates.md`.

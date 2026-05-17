@@ -1,5 +1,7 @@
 # Dundun — Engineering Documentation for the West African Bass Drum Family
 
+Status: L2 V5 build-packet candidate
+
 > *Stave-built dunduns — the dual-headed cylindrical bass drums that anchor the West African djembe ensemble. Built at Morgan Drums (St. Paul, MN) and revisited as an ongoing engineering project.*
 
 ![Hero photo](images/00-hero-dundun.jpg)
@@ -47,7 +49,7 @@ This makes the dundun a cleaner *fabrication* problem and a more interesting *ac
 
 ## CAD and design work
 
-Current status: **bare-bones readiness packet**. The scanned planning pages in
+Current status: **L2 V5 build-packet candidate**. The scanned planning pages in
 [`drawings/`](drawings/) preserve the existing design record, but they are
 reference evidence only. They are not shop-release CAD, DXF, or measured
 templates.
@@ -64,11 +66,20 @@ Starter packet files added in this repo:
   - shop sequence, coupons, and geometry gates.
 - [`cad-dxf-authority-plan.md`](cad-dxf-authority-plan.md) - what must become
   fabrication authority before the packet is build-ready.
-- [`validation-loop.csv`](validation-loop.csv) - head tension, shell resonance,
-  pitch, rope stretch, and ergonomic checks.
+- [`validation.csv`](validation.csv) and [`validation-loop.csv`](validation-loop.csv)
+  - V5 readiness gates plus head tension, shell resonance, pitch, rope stretch,
+  and ergonomic checks.
+- [`v5-packet-checklist.md`](v5-packet-checklist.md),
+  [`v5-material-measurement-gates.md`](v5-material-measurement-gates.md),
+  [`risks.md`](risks.md), [`drawing-brief.md`](drawing-brief.md),
+  [`photo-shotlist.md`](photo-shotlist.md), and
+  [`visual-output-register.csv`](visual-output-register.csv) - V5 review,
+  provenance, visual-authority, and shop-risk surfaces.
+- [`cad/mcp-session-log.md`](cad/mcp-session-log.md) - V5 starter provenance log
+  for CAD, Wolfram, design-table, and visual outputs.
 - [`analysis/wolfram-study-notes.md`](analysis/wolfram-study-notes.md) and
   [`analysis/membrane-shell-study.wl`](analysis/membrane-shell-study.wl) -
-  unexecuted resonance-study starter notes.
+  resonance-study starter source with smoke-check evidence only.
 
 Repository structure is laid out for:
 
@@ -82,7 +93,8 @@ Repository structure is laid out for:
 See [`analysis/wolfram-study-notes.md`](analysis/wolfram-study-notes.md) for
 the first membrane/shell resonance study outline and
 [`analysis/membrane-shell-study.wl`](analysis/membrane-shell-study.wl) for an
-unexecuted Wolfram starter. No runtime results are claimed yet.
+Wolfram starter. A May 17, 2026 `wolframscript -file` smoke check completed,
+but no measured inputs, plots, exported tables, or model results are claimed.
 
 The dundun trio's pitch relationships in traditional Mande ensembles are not standardized in equal-temperament terms, but the rough relationship is: **kenkeni about a perfect fourth above sangban, sangban about a perfect fourth above doundounba.** Building to that interval requires choosing the three cylinder geometries thoughtfully.
 
@@ -127,7 +139,7 @@ dundun/
 |---|---|
 | Repo description, license, gitignore | ✓ done |
 | Hero photos | forthcoming |
-| V5 starter packet | bare-bones readiness packet |
+| V5 starter packet | L2 V5 build-packet candidate; not build-ready |
 | CAD — body geometry per size | planned; not build-ready |
 | CAD — stave geometry | planned; not build-ready |
 | CAD — head + ring + rope path | planned; not build-ready |

@@ -1,7 +1,7 @@
 # Wolfram Membrane/Shell Study Notes
 
-Current status: starter notes only. No Wolfram runtime evidence has been
-recorded for this packet.
+Current status: starter notes plus runtime smoke check only. No measured
+Wolfram model evidence has been recorded for this packet.
 
 The accompanying starter file is `analysis/membrane-shell-study.wl`. It is a
 planning notebook source, not validated analysis output.
@@ -26,7 +26,12 @@ planning notebook source, not validated analysis output.
 
 ## Runtime Evidence
 
-Not run. Any future Wolfram output should record:
+Smoke check: `wolframscript -file analysis/membrane-shell-study.wl` completed
+on 2026-05-17 during V5 packet validation. The run only confirmed the starter
+source evaluates in the local Wolfram runtime; it did not use measured inputs
+or produce committed result artifacts.
+
+Any future Wolfram output should record:
 
 - Wolfram version.
 - Command or notebook used.
