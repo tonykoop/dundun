@@ -27,6 +27,8 @@ planning packet and a released shop packet.
 | MEAS-005 | Head pitch | Initial, settled, and post-playing pitch readings for both heads. | L3/L4 pitch claims |
 | MEAS-006 | Rope stretch | Marked rope length before tensioning, after 24 hours, and after one playing cycle. | Final rope quantity and lacing pattern |
 | MEAS-007 | Bell/strap ergonomics | Photo or fit notes showing no rope interference and safe player contact. | Optional hardware placement |
+| MEAS-008 | Family shop gates | `shop-gates.csv` rows SG-001 through SG-009 updated with evidence and status. | Shop-release review |
+| MEAS-009 | Shell/head/tension plan | `shell-head-tension-validation-plan.md` gates updated or cross-linked to measured logs. | CAD/DXF and design-table promotion |
 
 ## Promotion Rule
 

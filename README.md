@@ -66,6 +66,10 @@ Starter packet files added in this repo:
   - shop sequence, coupons, and geometry gates.
 - [`cad-dxf-authority-plan.md`](cad-dxf-authority-plan.md) - what must become
   fabrication authority before the packet is build-ready.
+- [`shell-head-tension-validation-plan.md`](shell-head-tension-validation-plan.md)
+  and [`shop-gate-tables.md`](shop-gate-tables.md) - family validation and
+  shop-gate plans for shell, head, rope tension, and trio-level release
+  sequencing.
 - [`validation.csv`](validation.csv) and [`validation-loop.csv`](validation-loop.csv)
   - V5 readiness gates plus head tension, shell resonance, pitch, rope stretch,
   and ergonomic checks.
@@ -140,6 +144,8 @@ dundun/
 | Repo description, license, gitignore | ✓ done |
 | Hero photos | forthcoming |
 | V5 starter packet | L2 V5 build-packet candidate; not build-ready |
+| Shell/head/tension validation plan | added; gates are open |
+| Shop-gate tables | added; coupon and release gates are open |
 | CAD — body geometry per size | planned; not build-ready |
 | CAD — stave geometry | planned; not build-ready |
 | CAD — head + ring + rope path | planned; not build-ready |

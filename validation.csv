@@ -9,3 +9,5 @@ V5-007,materials,v5-material-measurement-gates.md,open,"Material evidence gates 
 V5-008,measurements,validation-loop.csv,open,"Dimension/pitch/rope/ergonomic checks are defined but open.",Collect physical measurements and update gate statuses
 V5-009,cultural-review,risks.md,open,"Mande cultural/provenance review risk is named.",Add human review/source notes before public build instructions expand
 V5-010,shop-risk,risks.md,open,"Rope tension, hide handling, ring hardware, and player-contact risks are named.",Resolve with coupons and shop review before build release
+V5-011,shell-head-tension,shell-head-tension-validation-plan.md,open,"Family shell/head/tension validation gates are named for all three voices.","Collect measured shell basis, head-seat, rope stretch, and paired-head pitch evidence"
+V5-012,shop-gates,"shop-gate-tables.md; shop-gates.csv",open,"Shop release ladder is defined from P0 evidence setup through P5 CAD/DXF review.",Run gates in order and keep coupon evidence separate from build-ready release
