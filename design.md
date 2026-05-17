@@ -27,7 +27,7 @@ The main dimensional evidence is the scanned planning sheet
 | --- | --- | --- | --- |
 | Doundounba | 17 in diameter x 27.5 in long | 24 staves at 2.219 in width and 7.5 deg bevel; 18 staves at 2.952 in width and 10 deg bevel | reference only |
 | Sangban | 14 in diameter x 22.65 in long | 24 staves at 1.827 in width and 7.5 deg bevel; 18 staves at 2.431 in width and 10 deg bevel | reference only |
-| Kenkeni | 11 in diameter x 17.8 in long | 24 staves at 1.436 in width and 7.5 deg bevel; 18 staves at 1.91 in width and 10 deg bevel | reference only |
+| Kenkeni | 11 in diameter x 17.35 in long | 24 staves at 1.436 in width and 7.5 deg bevel; 18 staves at 1.91 in width and 10 deg bevel | reference only |
 
 These are useful planning dimensions, but they need confirmation against
 available lumber, finished wall thickness, head seating diameter, ring stock,

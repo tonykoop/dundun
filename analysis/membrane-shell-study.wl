@@ -6,7 +6,7 @@
 voices = <|
   "doundounba" -> <|"diameterIn" -> 17.0, "lengthIn" -> 27.5|>,
   "sangban" -> <|"diameterIn" -> 14.0, "lengthIn" -> 22.65|>,
-  "kenkeni" -> <|"diameterIn" -> 11.0, "lengthIn" -> 17.8|>
+  "kenkeni" -> <|"diameterIn" -> 11.0, "lengthIn" -> 17.35|>
 |>;
 
 inchToMeter[x_] := x*0.0254;
