@@ -75,6 +75,10 @@ ensemble, hide, and playing style.
 - Decide whether all three drums share a common stave count and jig setup.
 - Decide finish and moisture-sealing requirements for cowhide seating areas.
 
+See `shell-head-tension-validation-plan.md` for the gate-by-gate plan that
+turns these decisions into measured shell, head, rope, and family evidence
+without claiming build-ready authority.
+
 ## Unknowns Requiring Measurement
 
 - Actual dimensions from any surviving physical drums or templates.

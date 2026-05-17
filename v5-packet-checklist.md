@@ -22,6 +22,9 @@ build-packet standard. It is a review checklist, not a build release.
 - [x] `cut-list.csv`
 - [x] `validation.csv`
 - [x] `validation-loop.csv`
+- [x] `shell-head-tension-validation-plan.md`
+- [x] `shop-gate-tables.md`
+- [x] `shop-gates.csv`
 - [x] `risks.md`
 - [x] `drawing-brief.md`
 - [x] `photo-shotlist.md`
@@ -43,3 +46,5 @@ build-packet standard. It is a review checklist, not a build release.
 - [ ] Select 18 or 24 staves per voice and regenerate stave widths from controlled values.
 - [ ] Produce reviewed CAD/DXF/design-table geometry before any L3 claim.
 - [ ] Run Wolfram only when measured inputs exist and record command, date, version, and outputs.
+- [ ] Execute the shell/head/tension shop gates through P4 before any family
+      shop-release review.

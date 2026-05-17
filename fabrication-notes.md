@@ -50,3 +50,10 @@ Record at minimum:
 - Round all player-contact edges.
 - Confirm that any side bell mount does not create a snag point in the rope
   path.
+
+## Shop Gate Reference
+
+Use `shop-gate-tables.md` and `shop-gates.csv` as the release sequence for
+coupon, dry shell, first headed drum, full trio, and final CAD/DXF review. A
+passing coupon only advances the next gate; it does not make the trio
+build-ready.
