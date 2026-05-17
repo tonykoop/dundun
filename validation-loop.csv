@@ -1,0 +1,12 @@
+check_id,area,voice_scope,metric,target_or_question,method,evidence,status,next_action
+VAL-001,dimension,all,shell diameter provenance,Are planning diameters OD ID or head-seat diameter,Measure surviving drum/template or confirm from original CAD notes,Recorded measurement table,open,Locate physical evidence or original CAD
+VAL-002,dimension,all,wall thickness,What wall thickness balances strength weight and resonance,Measure Morgan Drums precedent or build coupon,Coupon measurement and tap note,open,Cut and document stave coupon
+VAL-003,membrane,all,hide mass per area,What membrane mass should model use,Weigh measured hide sample by area,Mass-area record,open,Measure actual cowhide stock
+VAL-004,membrane,all,head tension response,How pitch changes under rope tension,Record frequency after staged tightening,Pitch log and audio sample,open,Create first headed test drum or coupon
+VAL-005,shell,all,shell resonance,Does the shell reinforce useful bass response,Tap-test bare shell and record spectrum,Spectrum or tuner reading,open,Add shell tap-tone log
+VAL-006,pitch,doundounba,fundamental target,Lowest voice supports ensemble anchor,Record played head pitch after settling,Tuner or spectrum reading,open,Set target after measured head data
+VAL-007,pitch,sangban,interval to doundounba,Approximate fourth above doundounba,Record played pitch and compare interval,Tuner or spectrum reading,open,Validate after both drums are headed
+VAL-008,pitch,kenkeni,interval to sangban,Approximate fourth above sangban,Record played pitch and compare interval,Tuner or spectrum reading,open,Validate after both drums are headed
+VAL-009,rope,all,rope stretch,Does rope hold tension after 24 hours and one playing cycle,Measure marked rope segment before and after,String length log,open,Run lacing coupon test
+VAL-010,ergonomics,all,carry and playing clearance,Can player carry play and mount optional bell without interference,Fit check with rope path and bell mockup,Photo and notes,open,Mock up bell and strap locations
+VAL-011,authority,all,CAD/DXF readiness,Does a dimensioned CAD/DXF or design table control fabrication,Review CAD/DXF authority plan,Signed-off drawing list,open,Create measured CAD after validation data exists

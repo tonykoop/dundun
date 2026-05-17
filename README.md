@@ -47,7 +47,28 @@ This makes the dundun a cleaner *fabrication* problem and a more interesting *ac
 
 ## CAD and design work
 
-> *(Forthcoming.)*
+Current status: **bare-bones readiness packet**. The scanned planning pages in
+[`drawings/`](drawings/) preserve the existing design record, but they are
+reference evidence only. They are not shop-release CAD, DXF, or measured
+templates.
+
+Starter packet files added in this repo:
+
+- [`design.md`](design.md) - trio design intent, assumptions, and measurement
+  gaps.
+- [`family-spec.csv`](family-spec.csv) - voice-by-voice shell/head/lacing
+  placeholders with provenance.
+- [`bom.csv`](bom.csv) and [`sourcing.csv`](sourcing.csv) - starter materials
+  and supplier search placeholders.
+- [`fabrication-notes.md`](fabrication-notes.md) and [`cut-list.csv`](cut-list.csv)
+  - shop sequence, coupons, and geometry gates.
+- [`cad-dxf-authority-plan.md`](cad-dxf-authority-plan.md) - what must become
+  fabrication authority before the packet is build-ready.
+- [`validation-loop.csv`](validation-loop.csv) - head tension, shell resonance,
+  pitch, rope stretch, and ergonomic checks.
+- [`analysis/wolfram-study-notes.md`](analysis/wolfram-study-notes.md) and
+  [`analysis/membrane-shell-study.wl`](analysis/membrane-shell-study.wl) -
+  unexecuted resonance-study starter notes.
 
 Repository structure is laid out for:
 
@@ -58,7 +79,10 @@ Repository structure is laid out for:
 
 ## Acoustic notes
 
-> *(Forthcoming — pulling tuning measurements and any frequency analysis from personal archives.)*
+See [`analysis/wolfram-study-notes.md`](analysis/wolfram-study-notes.md) for
+the first membrane/shell resonance study outline and
+[`analysis/membrane-shell-study.wl`](analysis/membrane-shell-study.wl) for an
+unexecuted Wolfram starter. No runtime results are claimed yet.
 
 The dundun trio's pitch relationships in traditional Mande ensembles are not standardized in equal-temperament terms, but the rough relationship is: **kenkeni about a perfect fourth above sangban, sangban about a perfect fourth above doundounba.** Building to that interval requires choosing the three cylinder geometries thoughtfully.
 
@@ -103,11 +127,12 @@ dundun/
 |---|---|
 | Repo description, license, gitignore | ✓ done |
 | Hero photos | forthcoming |
-| CAD — body geometry per size | not started |
-| CAD — stave geometry | not started |
-| CAD — head + ring + rope path | not started |
-| CAD — jig design | not started |
-| Acoustic tuning analysis | not started |
+| V5 starter packet | bare-bones readiness packet |
+| CAD — body geometry per size | planned; not build-ready |
+| CAD — stave geometry | planned; not build-ready |
+| CAD — head + ring + rope path | planned; not build-ready |
+| CAD — jig design | planned; not build-ready |
+| Acoustic tuning analysis | starter notes only; no measured runtime evidence |
 | Physical builds documented | searching personal archives — Aug 2021 build-planning notes scanned in to `drawings/` |
 
 A repository in motion, not a finished portfolio piece.
