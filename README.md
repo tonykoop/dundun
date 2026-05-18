@@ -84,6 +84,9 @@ Starter packet files added in this repo:
 - [`analysis/wolfram-study-notes.md`](analysis/wolfram-study-notes.md) and
   [`analysis/membrane-shell-study.wl`](analysis/membrane-shell-study.wl) -
   resonance-study starter source with smoke-check evidence only.
+- [`capstone-manifest.json`](capstone-manifest.json) and
+  [`explorer.html`](explorer.html) - root packet manifest and generated studio
+  explorer for reviewing the current L2 scaffold in one surface.
 
 Repository structure is laid out for:
 
@@ -146,6 +149,8 @@ dundun/
 | V5 starter packet | L2 V5 build-packet candidate; not build-ready |
 | Shell/head/tension validation plan | added; gates are open |
 | Shop-gate tables | added; coupon and release gates are open |
+| Capstone manifest | ✓ L2 manifest added; release gates remain open |
+| Studio explorer | ✓ generated from the L2 packet; documentation surface only |
 | CAD — body geometry per size | planned; not build-ready |
 | CAD — stave geometry | planned; not build-ready |
 | CAD — head + ring + rope path | planned; not build-ready |
