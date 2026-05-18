@@ -1,0 +1,90 @@
+{
+  "generated": "2026-05-18",
+  "title": "Dundun Trio Bare-Bones Starter Packet",
+  "instrument": "dundun trio",
+  "build_target": "kenkeni / sangban / doundounba cylindrical drum family",
+  "artifact_focus": "L2 V5 starter packet for cylindrical membrane drums with shell, head, rope, and trio-tuning gates",
+  "release_status": "private-review scaffold",
+  "packet_version": "L2 V5 build-packet candidate",
+  "hero_image": "images/00-hero-dundun.jpg",
+  "issue": "tonykoop/dundun#1",
+  "family_members": [
+    "kenkeni",
+    "sangban",
+    "doundounba"
+  ],
+  "files_included": [
+    "README.md",
+    "design.md",
+    "family-spec.csv",
+    "bom.csv",
+    "sourcing.csv",
+    "cut-list.csv",
+    "fabrication-notes.md",
+    "cad-dxf-authority-plan.md",
+    "shell-head-tension-validation-plan.md",
+    "shop-gate-tables.md",
+    "shop-gates.csv",
+    "validation.csv",
+    "validation-loop.csv",
+    "v5-packet-checklist.md",
+    "v5-material-measurement-gates.md",
+    "visual-output-register.csv",
+    "drawing-brief.md",
+    "photo-shotlist.md",
+    "risks.md",
+    "cad/mcp-session-log.md",
+    "analysis/wolfram-study-notes.md",
+    "analysis/membrane-shell-study.wl",
+    "explorer.html"
+  ],
+  "release_gate": {
+    "public_candidate": false,
+    "required_before_public": [
+      "Confirm whether scanned planning dimensions are outside diameter, inside diameter, or finished head-seat diameter before CAD/DXF release.",
+      "Measure shell wall thickness, head clear diameter, cowhide thickness, rope diameter, and ring stock before treating family-spec.csv or cut-list.csv as fabrication authority.",
+      "Collect head-tension, shell-response, pitch, rope-stretch, and ergonomic data before promoting beyond L2.",
+      "Review CAD/DXF/design-table outputs against measured templates before any shop-release geometry claim.",
+      "Add sourced cultural/provenance notes before expanding public build instructions."
+    ]
+  },
+  "fabrication_authority": "none yet; future authority must come from measured templates, reviewed CAD/DXF, or design tables",
+  "visual_authority": "drawings and photos are reference_only unless paired with a measurement method",
+  "runtime_validation": "wolfram smoke-check evidence only; no measured model outputs or plots claimed",
+  "engineering": {
+    "wolfram": [
+      {
+        "source_file": "analysis/membrane-shell-study.wl",
+        "cloud_path": "analysis/membrane-shell-study.wl",
+        "cloud_url": "",
+        "kind": "source-only-starter",
+        "permission": "local"
+      }
+    ]
+  },
+  "cultural_provenance": {
+    "claim": "The dundun family has living Mande West African cultural context. This repo documents Tony's Morgan Drums stave-construction work and engineering process while keeping cultural claims modest until sourced review is added."
+  },
+  "sources": [
+    {
+      "title": "Repository README",
+      "credit": "Current status, background, packet file map, and readiness notes",
+      "url": "README.md"
+    },
+    {
+      "title": "Starter design",
+      "credit": "Trio intent, planning-derived assumptions, unknowns, and L2 readiness label",
+      "url": "design.md"
+    },
+    {
+      "title": "Visual authority register",
+      "credit": "Reference-only status for scans and photos",
+      "url": "visual-output-register.csv"
+    },
+    {
+      "title": "V5 validation gates",
+      "credit": "Open measurement, fabrication, visual, and shop-gate status",
+      "url": "validation.csv"
+    }
+  ]
+}
