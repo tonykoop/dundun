@@ -1,0 +1,11 @@
+gate_id,subject,required,measured_evidence,blocks_until_passed,status
+DUN-AUTH-01,shell_diameter_basis,yes,"Per voice OD ID and head-seat diameter measured on a real shell coupon or finished prior build with dimension basis stated",Trio CAD body geometry and family-spec promotion,open
+DUN-AUTH-02,shell_depth_body_length,yes,"Per voice measured body length from a real shell with end-trim allowance",Trio CAD body geometry and cut-list release,open
+DUN-AUTH-03,shell_wall_thickness,yes,"Coupon-measured wall thickness after glue-up and sanding with target tolerance",Stave-width regeneration and trio CAD body geometry,open
+DUN-AUTH-04,head_material_identity,yes,"Hide species source and lot or batch identifier recorded",Head ordering and head-tension model,open
+DUN-AUTH-05,head_thickness_and_mass,yes,"Coupon-measured hide thickness and mass per unit area per voice",Membrane pitch model and head-tension authority,open
+DUN-AUTH-06,head_diameter,yes,"Per voice measured cut diameter and finished installed diameter at the bearing edge",Head-seat CAD and ring inside-diameter authority,open
+DUN-AUTH-07,head_tension_first_tuning,yes,"Per voice initial rope tension state and resulting head pitch recorded for both heads",Tuning math and final rope length and lacing pattern,open
+DUN-AUTH-08,stave_construction_provenance,yes,"Per shell stave count target D stave width w bevel angle theta and build shop recorded against as-built artifact",Stave CAD and trio family-spec promotion,open
+DUN-AUTH-09,stave_species_and_stock,yes,"Per shell species grain orientation board thickness and moisture content of stave stock",Acoustic-model calibration and sourcing promotion,open
+DUN-AUTH-10,first_tuning_strike_log,yes,"Strike-log entry per voice covering initial settled and post-playing pitch for both heads with date temp humidity and stick",L3 and L4 pitch claims and trio interval claim,open
