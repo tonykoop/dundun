@@ -54,6 +54,14 @@ Current status: **L2 V5 build-packet candidate**. The scanned planning pages in
 reference evidence only. They are not shop-release CAD, DXF, or measured
 templates.
 
+> **Trio CAD authority hold.** No trio CAD geometry, DXF, design table, or
+> build-ready claim may be promoted while any required gate in
+> [`reference/measured-authority-gates.md`](reference/measured-authority-gates.md)
+> is open. That checklist covers shell diameter/depth/wall-thickness,
+> head material/tension/diameter, stave construction provenance, and a
+> first-tuning strike log — all required before any kenkeni / sangban /
+> doundounba CAD claim is treated as authority.
+
 Starter packet files added in this repo:
 
 - [`design.md`](design.md) - trio design intent, assumptions, and measurement
