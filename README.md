@@ -1,6 +1,6 @@
 # Dundun — Engineering Documentation for the West African Bass Drum Family
 
-Status: L2 V5 build-packet candidate
+Status: L2 V5 build-packet candidate — trio packet expanded in round 1 2026-05-29: `reference/cultural-provenance.md` added (Mande origin, Morgan Drums context, build assumptions separated from cultural notes); `validation-loop.csv` expanded with pitch interval, strike response, and ensemble listen checks (VAL-016–VAL-020).
 
 > *Stave-built dunduns — the dual-headed cylindrical bass drums that anchor the West African djembe ensemble. Built at Morgan Drums (St. Paul, MN) and revisited as an ongoing engineering project.*
 
