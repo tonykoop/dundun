@@ -1,0 +1,19 @@
+# Image-Gen Prompts
+
+Concept image only; not fabrication authority. Do not include cut-ready dimensions, hole locations, stave widths, bevel angles, head-seat diameters, rope-diamond spacing, tuning numbers, or toolpaths.
+
+## Hero Prompt
+
+Photorealistic 3/4 product photograph of a single finished stave-built dundun: a closed wooden cylinder drum standing upright, its body assembled from vertical hardwood staves glued edge-to-edge into a smooth round shell with the faint vertical seams of the stave construction reading across the surface, a cowhide skin head stretched and seated over each end and held by a woven hoop ring at top and bottom, the two rings linked by a continuous run of black tensioning rope laced vertically down the shell in evenly repeated tension-diamond pulls so the lacing visibly couples both heads together, the cylindrical silhouette obviously simpler and more barrel-clean than a goblet djembe, a satin oiled wood finish warming the grain, a single playing stick resting against the body for scale and a hint of an optional side-mounted bell, floor-standing bass-drum scale cues, clean neutral studio background, soft directional studio light raking across the rope and stave seams, ~50mm lens, high detail, photorealistic, no text labels. Avoid: no text, logos, watermarks, or fake maker marks, no dimension callouts or cut diagrams, no impossible rope paths or floating rings, no goblet/hourglass profile. IMPORTANT: This image is a concept visualization only. Do not include dimension lines, measurements, or fabrication specifications. The image is not authoritative for any physical build dimension.
+
+## In-Context Prompt
+
+Photorealistic image of a stave-built dundun trio staged in a warm West-African-style drum workshop, the three cylindrical drums lined up smallest to largest — a short kenkeni, a taller mid-size sangban, and the deep doundounba — each dual-headed in cowhide with vertical black rope lacing and woven hoop rings, a player's hands holding a stick mid-strike over the head of one drum with a small side bell catching the light, raw cowhide and coils of tensioning rope and a few hand tools nearby for storytelling, natural window light, sawdust and timber atmosphere, shallow depth of field, concept visualization only. Avoid: no text, logos, watermarks, or fake maker marks, no dimension callouts, no impossible mechanisms; anatomically plausible hands holding the stick naturally. IMPORTANT: This image is a concept visualization only. Do not include dimension lines, measurements, or fabrication specifications. The image is not authoritative for any physical build dimension.
+
+## Detail Prompt
+
+Photorealistic macro close-up of the signature dual-head rope-tension mechanism: a woven hoop ring seating a cowhide head over the bearing edge of the stave shell, with the continuous black tensioning rope running through the ring and pulling into evenly repeated tension diamonds down the side of the cylinder, the vertical stave seams and satin wood grain visible behind the lacing, the cowhide texture and the rope fiber rendered crisply, soft raking light revealing the depth of each rope pull and the curve of the ring against the round shell, shallow depth of field, high detail, no measurements. Avoid: no text, logos, watermarks, or fake maker marks, no dimension callouts, no impossible rope routing or floating hardware. IMPORTANT: This image is a concept visualization only. Do not include dimension lines, measurements, or fabrication specifications. The image is not authoritative for any physical build dimension.
+
+## Negative / Avoid
+
+No text, logos, watermarks, fake maker marks, cut diagrams, dimension callouts, stave-width or bevel labels, impossible rope paths, floating rings or hardware, goblet/hourglass djembe profile, extra fingers, or unnatural grip; anatomically plausible hands if a player is shown.
