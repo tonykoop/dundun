@@ -54,11 +54,11 @@
   "engineering": {
     "wolfram": [
       {
-        "source_file": "analysis/membrane-shell-study.wl",
-        "cloud_path": "analysis/membrane-shell-study.wl",
-        "cloud_url": "",
-        "kind": "source-only-starter",
-        "permission": "local"
+        "source_file": "percussion/dundun/analysis/membrane-shell-study.wl",
+        "cloud_path": "Musical_Instruments/percussion/dundun/membrane-shell-study.wl",
+        "cloud_url": "https://www.wolframcloud.com/obj/wrfcoin/Musical_Instruments/percussion/dundun/membrane-shell-study.wl",
+        "permission": "Public-Execute",
+        "kind": "other"
       }
     ]
   },
