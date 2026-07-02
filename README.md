@@ -87,14 +87,22 @@ Starter packet files added in this repo:
   [`photo-shotlist.md`](photo-shotlist.md), and
   [`visual-output-register.csv`](visual-output-register.csv) - V5 review,
   provenance, visual-authority, and shop-risk surfaces.
-- [`cad/mcp-session-log.md`](cad/mcp-session-log.md) - V5 starter provenance log
+- [`CAD/mcp-session-log.md`](CAD/mcp-session-log.md) - V5 starter provenance log
   for CAD, Wolfram, design-table, and visual outputs.
+- [`CAD/dundun.scad`](CAD/dundun.scad) - parametric trio OpenSCAD master (shell
+  envelope for kenkeni/sangban/doundounba, driven by `family-spec.csv`);
+  `pending_measurement`, not fabrication authority until reviewed.
+- [`wolfram/dundun-wolfram-model.wl`](wolfram/dundun-wolfram-model.wl) - three-drum
+  membrane tension explorer; source-only, `derived_preview`.
 - [`analysis/wolfram-study-notes.md`](analysis/wolfram-study-notes.md) and
   [`analysis/membrane-shell-study.wl`](analysis/membrane-shell-study.wl) -
   resonance-study starter source with smoke-check evidence only.
 - [`capstone-manifest.json`](capstone-manifest.json) and
   [`explorer.html`](explorer.html) - root packet manifest and generated studio
   explorer for reviewing the current L2 scaffold in one surface.
+- [`evolution/`](evolution/master/manifest.json) - Stage 0 evolution-pipeline
+  intake (master manifest, design-intent, revision register) for the current
+  CAD/Wolfram/design-table masters; Gate A not yet run.
 
 Repository structure is laid out for:
 
