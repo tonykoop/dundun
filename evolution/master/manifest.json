@@ -1,0 +1,34 @@
+{
+  "product": "dundun",
+  "pipeline": "studiopipeline:evolution-pipeline",
+  "stage": "0-intake",
+  "master_revision": "rev-A (pre-commit intake, 2026-07-01)",
+  "generated": "2026-07-01",
+  "cad_masters": [
+    {
+      "path": "CAD/dundun.scad",
+      "format": "openscad-source",
+      "sha256": "90326b2a0ea46290eee50c7578de435ae26c3b77eb48b05d5f75c6962cd06267",
+      "authority": "pending_measurement",
+      "lossy": false,
+      "notes": "Parametric trio master; kenkeni/sangban/doundounba shell envelope (diameter, length, stave-width/bevel formula) from family-spec.csv. Wall thickness, head clear diameter, and ring dimensions are prototype_assumption placeholders pending reference/measured-authority-gates.csv DUN-AUTH-03/06."
+    },
+    {
+      "path": "family-spec.csv",
+      "format": "design-table",
+      "sha256": "4946e04ba97839b41f58ad9addc6cfc6fdb9a4c631a14182c4597d9f7c3fde78",
+      "authority": "reference_only",
+      "lossy": false,
+      "notes": "Voice-by-voice shell/head/lacing planning targets transcribed from drawings/img20260426_00504715.png; diameter_basis column explicitly 'unknown until measured'. Not fabrication authority."
+    },
+    {
+      "path": "wolfram/dundun-wolfram-model.wl",
+      "format": "wolfram-source",
+      "sha256": "592a358eca0a20cf67ffc69604951c49eabbedad891a0576c8d67290a4fc31b2",
+      "authority": "derived_preview",
+      "lossy": false,
+      "notes": "Three-drum membrane tension explorer; source-only (not executed this pass); L2 evidence."
+    }
+  ],
+  "notes": "OpenSCAD source and family-spec.csv are the current masters; no STEP/SLDPRT export tracks the trio (the pre-existing CAD/Cylinder Drums/*.SLDPRT is an unrelated generic-cylinder study, not part of this trio's master chain). Gate A (Alpha workspace compile) not yet run. This packet carries zero fabrication-authority artifacts by design — see design.md 'Fabrication authority: not build-ready' and capstone-manifest.json 'fabrication_authority: none yet'."
+}
