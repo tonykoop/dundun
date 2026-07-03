@@ -89,6 +89,30 @@ without claiming build-ready authority.
 - Ergonomic carry and playing height with strap, stand, or floor position.
 - Whether side-bell hardware changes balance or creates rope interference.
 
+## Arena/Registry Readiness — Geometry Facts
+
+Consolidates the Planning-Derived Shell Assumptions table above (Sangban, the
+middle voice) into registry-candidate form (Code-CAD Arena,
+`makerbench-hwe/tasks/code_cad_arena/registry.json`). **Heavily caveated** —
+this packet's own authority column marks these numbers "reference only," not
+locked fabrication geometry, and lists open stave-count/diameter-convention
+decisions still pending. Included because the numbers exist and are
+traceable to a real source (a scanned planning sheet), not because they're
+final.
+
+| Field | Value | Source |
+|---|---|---|
+| task_kind | stave_shell (single-drum hourglass/cylindrical stave shell; trio target is 3 of these) | Intent |
+| named params (Sangban) | shell_diameter_in: 14, shell_length_in: 22.65, stave_count_option_a: 24, stave_width_in_option_a: 1.827 | Planning-Derived Shell Assumptions table |
+| envelope_mm | [356, 356, 575] (14 in diameter ≈ 356 mm; 22.65 in length ≈ 575 mm) — **reference-only per the packet's own authority column**, not fabrication-locked | same table |
+| assembly | true (3-drum trio: doundounba/sangban/kenkeni, each its own shell + head/rope system) | Intent |
+| min_bodies | 3 (one shell per voice; head/rope hardware not CAD-modeled here) | same |
+
+**Not arena-ready** — the packet is explicit that inside/outside/head-seat
+diameter convention and stave count aren't decided yet; using this for a
+scored arena task before that's resolved would score against a number the
+repo itself doesn't yet stand behind.
+
 ## Readiness Label
 
 This is an L2 V5 build-packet candidate. It is suitable for planning,
